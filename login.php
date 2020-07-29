@@ -23,7 +23,7 @@ $query=mysqli_query($con,$sql);
 $counter=mysqli_num_rows($query);
 if ($counter==1){
 		$_SESSION['login_user_sys']=$username; // Iniciando la sesion
-		header("location: profile.php"); // Redireccionando a la pagina profile.php
+		header("location: dashboard.php"); // Redireccionando a la pagina profile.php
 	
 	
 } else {
