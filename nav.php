@@ -1,18 +1,10 @@
-	<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand visible-xs-block visible-sm-block" href="">Inicio</a>
-			</div>
-			<div id="navbar" class="navbar-collapse collapse">
-				<ul class="nav navbar-nav ">
-					<li class="active"><a href="list.php">Lista de empleados</a></li>
-					<li><a href="#">Digitalizar documento</a></li>
-					<li><a href="logout.php"> Cerrar sesión</a></li>
-				</ul>
-			</div><!--/.nav-collapse -->
-	</div>
+<a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="#">SGD</a>
+<button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse" data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+</button>
+<input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+<ul class="navbar-nav px-3">
+	<li class="nav-item text-nowrap">
+		<a class="nav-link" href="formLogin.php">Cerrar sesion</a>
+	</li>
+</ul>
